@@ -6,3 +6,7 @@ header {
   display: flex;
   justify-content: space-between;
 }
+
+div img {
+  display: inline;
+}
