@@ -8,5 +8,5 @@ header {
 }
 
 div img {
-  display: inline;
+  display: inline-block;
 }
