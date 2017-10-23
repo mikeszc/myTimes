@@ -10,6 +10,8 @@ header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  background-color: white;
+  margin: 0;
 }
 
 .logo {
@@ -30,4 +32,38 @@ nav {
 
 nav span {
   padding: 10px;
+}
+
+/* Body */
+
+.container{
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}
+
+div {
+  border: 1px solid black;
+}
+
+.column.large{
+  width: 630px;
+  flex: 4 1 630px;
+}
+
+.column.medium{
+  width: 300px;
+  flex: 1 1 300px;
+}
+
+.column.small{
+  width: 240px;
+  flex: 1 1 240px;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
 }
